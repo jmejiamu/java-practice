@@ -24,10 +24,12 @@ public class Main {
             System.out.println("This is a positive number");
         } else if (numberIf < 0) {
             System.out.println("This is a negative number");
+        }else{
+            System.out.println("The numberIf is 0");
         }
 
         //- Crea un bucle While, este bucle tendrá que tener como condición que la variable numeroWhile sea inferior a 3, el bloque de código que tendrá el bucle deberá:
-        int numberWhile = 0;
+        int numberWhile = 1;
 
         while (numberWhile < 3) {
             System.out.println(numberWhile);
@@ -36,10 +38,11 @@ public class Main {
         }
 
         //- Para el bucle Do While, deberás crear la misma estructura que en el While, pero solo se debe ejecutar una vez.
+        int numberDoWhile = 3;
         do {
             System.out.println(numberWhile);
             numberWhile++;
-        } while (numberWhile < 1);
+        } while (numberWhile < 3);
 
         //- Para el bucle For, crea una variable numeroFor, esta variable tendrá como valor 0 y su condición será que la variable sea igual o menor que 3, se irá incrementando en 1 su valor cada vez que se ejecute y deberá mostrarse por pantalla.
         for (int numberFor = 0; numberFor <= 3; numberFor++) {
